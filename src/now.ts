@@ -9,3 +9,13 @@ console.log(
     days: 2,
   })
 );
+
+//
+
+type AppStatusCode = "NOT_AUTHORIZED" | "NOT_ALLOWED" | "SCREEN_NOT_ALLOWED";
+// type AppStatusCode // 1001, 1002, 1003,
+
+type ApiResponse = {
+  appStatusCode: AppStatusCode;
+  message: string;
+};

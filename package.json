@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "now": "tsx ./src/now.ts"
+    "now": "tsx ./src/now.ts",
+    "server": "tsx ./src/server.ts"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +16,7 @@
     "date-fns": "^4.1.0"
   },
   "devDependencies": {
+    "@types/node": "^24.3.1",
     "ts-node": "^10.9.2",
     "tsx": "^4.20.5",
     "typescript": "^5.9.2"
